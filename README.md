@@ -88,5 +88,13 @@ Unshuffle the resulting matrix $X_1$ by swapping column 2 and 4 and then rows 1 
     $P = \Big((X_0 * R_1^{-1}) - K_1 \Big) * B^{-1} \text{ mod } 128$  
     The resulting $P$ is then converted into the plain text which is the original message.
 
+---
+## License
+This project is licensed under the MIT License.
+
+## Author  
+
+**Kugonza Fred**
+---
 
 
