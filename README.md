@@ -1,13 +1,13 @@
 # MatSEA - Modular Matrix Transforms & Shuffle Encryption Algorithm
 
 ## **Disclaimer**  
-This project was submitted as a Python project to Harvard's introduction to programming with Python - CS50P by **Kugonza Fred**. **DO NOT SUBMIT THIS PROJECT AS YOUR OWN TO CS50P**  
-MATSEA is a simple encryption algorithm, an improved version of the Hill Cipher and by no means immune to cryptanalysis as it has not been analysed by cryptanalysts.
+This project was submitted as a Python project to Harvard's introduction to programming with Python - CS50P by **Kugonza Fred**. <span style = "color: red;"> **DO NOT SUBMIT THIS PROJECT AS YOUR OWN TO CS50P** </span>  
+MATSEA is a simple encryption algorithm, an improved version of the Hill Cipher and by no means immune to cryptanalysis as cryptanalysts have not analysed it.
 
 ### Description: 
 MatSEA is a symmetric encryption algorithm that uses matrices to diffuse and confuse the plaintext into ciphertext.  
 
-MatSEA encrypts plaintext by converting it into structured matrices and applying modular matrix operations along with a shuffle-based diffusion technique, making the original text significantly obfuscated. It uses carefully chosen cryptographically random key matrices and its encryption mathematical operations are under modulo 128 which enables efficient processing of printable ASCII characters. Decryption reverses the transformations through matrix inverses and structured unshuffling. The generated cipher text and key are serialized using base64 encoding to store and copy-paste encrypted data without encountering non-printable ASCII characters.
+MatSEA encrypts plaintext by converting it into structured matrices and applying modular matrix operations and a shuffle-based diffusion technique, making the original text significantly obfuscated. It uses carefully chosen cryptographically random key matrices and its encryption mathematical operations are under modulo 128 which enables efficient processing of printable ASCII characters. Decryption reverses the transformations through matrix inverses and structured unshuffling. The generated cipher text and key are serialized using base64 encoding to store and copy-paste encrypted data without encountering non-printable ASCII characters.
 
 ## Dependencies
 The algorithm makes use of the following libraries:
