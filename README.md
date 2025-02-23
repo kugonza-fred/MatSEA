@@ -1,8 +1,8 @@
 # MatSEA - Modular Matrix Transforms & Shuffle Encryption Algorithm
 
-## **Disclaimer**  
+<!--## **Disclaimer**  
 This project was submitted as a Python project to Harvard's introduction to programming with Python - CS50P by **Kugonza Fred**. <span style = "color: red;"> **DO NOT SUBMIT THIS PROJECT AS YOUR OWN TO CS50P** </span>  
-MATSEA is a simple encryption algorithm, an improved version of the Hill Cipher and by no means immune to cryptanalysis as cryptanalysts have not analysed it.
+MATSEA is a simple encryption algorithm, an improved version of the Hill Cipher and by no means immune to cryptanalysis as cryptanalysts have not analysed it. -->
 
 ### Description: 
 MatSEA is a symmetric encryption algorithm that uses matrices to diffuse and confuse the plaintext into ciphertext.  
